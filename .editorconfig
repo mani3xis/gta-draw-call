@@ -1,0 +1,14 @@
+# Indeed, EditorConfig is truly awesome!
+# Check it yourself: http://editorconfig.org
+
+# This is the top-most .EditorConfig file, so stop searching at this level
+root = true
+
+# ALL FILES must be saved with UTF-8 encoding with final EOL.
+# Moreover, I decided to use 8 column wide TABs for indentation.
+[*]
+charset = utf-8
+indent_style = tab
+indent_size = 8
+trim_trailing_whitespace = true
+insert_final_newline = true
