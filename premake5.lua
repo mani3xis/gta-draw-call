@@ -104,3 +104,15 @@ workspace "ViceCity_OneDrawCall"
 			links { "lzhamdecomp_x86D" }
 		filter { "system:windows", "Release" }
 			links { "lzhamdecomp_x86" }
+
+
+	-- Endianness converter tailored for big-endian platforms like PS3
+	project "ps3rebake"
+		kind "ConsoleApp"
+		language "C++"
+		location "build/%{prj.name}"
+		debugdir "data/"
+
+		files {
+			"source/main_ps3rebake.cpp"
+		}

@@ -78,6 +78,10 @@ Of course not! There are still some things that might be worth considering:
 - [ ] Improve the visual quality somehow (via Über-shader?)
 - [ ] Reversed floating-point depth buffer (no more Z-fighting)
 - [ ] Support for hour-constrained models and night time
+- [ ] Improve Code quality & readability
+- [x] Experimental PlayStation 3 port
 
 Unfortunately due to the 1 draw-call constraint there will be no run-time
 shadows or any post-processing effects :/ Yeah, I know - what a pitty... ;)
+
+![Short low-res preview](https://i.imgur.com/rTUmwtE.gif)
